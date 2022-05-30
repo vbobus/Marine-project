@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Ailerons";
+    src: url("fonts/Ailerons-Regular.otf") format("embeded-opentype");
+    src: url("fonts/ailerons-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Blanka";
+    src: url('fonts/blanka/Blanka-Regular.otf') format('embeded-opentype');
+    src: url('fonts/blanka/Blanka-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "nidsans";
+    src: url("fonts/nidus_sans/nidssans-webfont.woff") format("woff");
+    src: url('fonts/nidus_sans/nidsans-webfont.eot') format('embeded-opentype');
+    src: url('fonts/nidus_sans/nidsans-webfont.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: calc(1em + 1vw);
+}
+
+body {
+    overflow: scroll;
+}
+
+.firstbox {
+    background-image: url('Images/image01.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*.firstbox {}
+ {
+    width: 50%;
+    display: block;
+    height: max-content;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.firstbox {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstText {}
+*/
+
+#head {
+    font-family: 'Blanka';
+    color: #006A89;
+    size: 90 em;
+    opacity: 0.7;
+}
+
+.subhead {
+    font-family: 'Ailerons';
+    color: #BEFFF5;
+    size: 78 em;
+    opacity: 8.3;
+}
+
+.secondbox {
+    background-image: url('Images/image02.png');
+    background-size: cover;
+    background-position: center;
+    height: 250vh;
+    overflow: auto;
+    font-family: 'nidsans';
+    color: white;
+    size: 30 em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-around;
+}
+
+.secondbox h1 {
+    font-size: 500px;
+    color: #00494F;
+}
+
+.facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+#conclusion {
+    text-align: center;
+}
+
+.thirdbox {
+    background-image: url('Images/image03.png');
+    background-size: cover;
+    background-position: center;
+    height: 250vh;
+    overflow: auto;
+    display: flex;
+    align-content: center;
+}
+
+#help {
+    font-family: 'Ailerons';
+    color: white;
+    font-size: 100px;
+    opacity: 0.8;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 30%;
+}
+
+.forthbox {
+    background-image: url('Images/image04.png');
+    background-size: cover;
+    background-position: center;
+    height: 250vh;
+    overflow: auto;
+    position: relative;
+}
+
+.forthbox ul {
+    list-style: none;
+    font-family: 'nidsans';
+    color: lightseagreen;
+    text-align: center;
+}
+
+.forthbox li {
+    /*border-bottom: solid 1px #333;*/
+    list-style-image: url('images/list.png');
+    margin: 0;
+    padding: 20px;
+    background: white;
+    opacity: 0.5;
+}
+
+.forthbox #footer {
+    font-family: 'Ailerons';
+    font-size: xx-small;
+    color: #BEFFF5;
+    /*display: flex;
+    text-align: center;
+    justify-content: center;*/
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    justify-content: center;
+}
+
+
+/*# sourceMappingURL=rule14.css.map */
